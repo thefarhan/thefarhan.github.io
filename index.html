@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>فرحان</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="dist/app.css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+    <div id="app">
+        <a href="#" class="menu-key" @click="toggleMenu" v-show="!menuVisibility"> منو </a>
+        <ul :class="{menu: true, visible: menuVisibility }">
+            <li><a href="#" @click="changePage('home')">خانه</a></li>
+            <li><a href="#" @click="changePage('about')">درباره من</a></li>
+            <li><a href="#" @click="changePage('skills')">مهارت های من </a></li>
+            <li><a href="#" @click="changePage('works')">نمونه کارها</a></li>
+            <li><a href="#" @click="changePage('contact')">تماس با من</a></li>
+            <li><a href="#" @click="toggleMenu"> << </a></li>
+        </ul>
+        <keep-alive class="contents">
+            <transition
+                    :name="transitionType"
+                    :enter-active-class="enterTransitionType"
+                    :leave-active-class="leaveTransitionType"
+                        mode="in-out">
+            <component
+                    v-bind:is="loadPage"
+                    class="dynamic-component"
+            ></component>
+            </transition>
+        </keep-alive>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="dist/app.js?v=1234"></script>
+</body>
+</html>
