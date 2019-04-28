@@ -151,7 +151,7 @@
                                        class="btn btn-primary"
                                        data-toggle="modal"
                                        data-target="#fullwidthModal"
-                                       @click="setModalContent('video', '../videos/digi30ketab.mp4')"
+                                       @click="setModalContent('video', 'https://thefarhan.github.io/videos/digi30ketab.mp4')"
                                     >مشاهده ویدئو</a>
                                 </div>
                             </div>
@@ -215,14 +215,14 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <button type="button" class="close ml-0" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">این یه پنجرست</h4>
+                        <h4 class="modal-title"></h4>
 
                     </div>
 
                     <!-- Modal body -->
                     <div class="modal-body">
 
-                        <video src="../../videos/digi30ketab.mp4"></video>
+
                     </div>
 
                     <!-- Modal footer -->
@@ -257,10 +257,22 @@
                     jQuery(e.target).parents('.card').toggleClass('full')
                 }
             },
+            setModalContent(type, src, title){
+                switch (type){
+                    case 'video':
+                        jQuery('#fullwidthModal .modal-title').text(title);
+                            jQuery('#fullwidthModal .modal-body').html(
+                                "<video class='video' controls>\n" +
+                                "  <source src=\"" + src + "\" type=\"video/mp4\">\n" +
+                                "  لطفا از مرورگر به روز استفاده نمایید. \n" +
+                                "</video>");
+
+                        break;
+                }
+
+            }
         },
         mounted: function() {
-            this.$refs.videoRef.src = "http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4";
-
         },
         watch: {
             full(){
@@ -300,6 +312,10 @@
     }
     .card.full img{
         max-height: none;
+    }
+
+    .video{
+        width: 100% !important;
     }
 
 </style>

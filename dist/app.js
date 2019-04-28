@@ -25943,11 +25943,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: "about",
@@ -26009,39 +26004,13 @@ var staticRenderFns = [
         _vm._v("فارغ التحصیل رشته علوم کامپیوتر، از دانشگاه پیام نور اهواز")
       ]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "اگر نخوام بگم هیچ، به جرات میتونم بگم توی دانشگاه چیز خاصی یاد نگرفتم! هرچند خیلی ها وضعیتشون به همین صورته ولی گفتنش خالی از لطف نیست :)"
-        )
-      ]),
+      _c("p", [_vm._v("فرزند کوچیک خانواده هستم و تنها پسر خانواده.")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("خیلی اهل ورزش کردن نیستم ولی ورزش کردن رو دوست دارم.")]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "فرزند کوچیک خانواده هستم و تنها پسر خانواده. کمی شوخ طبع هستم ولی جایی که قضیه جدی باشه خیلی جدی میشم. بستگی به طرفم داره و اوضاع اطراف دیگه !!!"
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "خیلی اهل ورزش کردن نیستم ولی اگه کسی پایه باشه و هوا خوب باشه بدم نمیاد بریم ورزش کنیم."
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          'اهل موزیک نیستم اما کاری هم به کار کسی ندارم. موزیک چرت نذارن دور و برم صدامم درنمیاد. ولی اگه تمرکزمو به هم بزنه معمولا از جمله ی "یکم کمش کن" شروع می کنم تا میرسیم به کتک کاری (خیلی بستگی به شعور طرف داره) :) '
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "همه جور غذایی میخورم و غذای مورد علاقه خاصی ندارم ! اما خوب مسلما قرمه سبزی ای که جا افتاده یه چیز دیگس! غذای آماده بیرونی مثل ساندویچ و پیتزا و غیره حتما باید سس مایونز داشته باشه، نداشته باشه با کراهت تمام می خورم!"
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "اهل مطالعه کتاب نیستم اما منابع اینترنتی رو زیاد مطالعه می کنم، مقالاتی توی زمینه های مختلف خوندمه و می خونم که اکثرا مرتبط با شغلم هستن، ولی خوب هر از چندگاهی مطالب غیر مرتبط هم می خونم، مثلا مقالاتی در مورد تکنولوژی های جدید، سیاست، اقتصاد، جامعه شناسی و غیره.. . اما مقاله ای که در مورد تکنولوژی جدید باشه اصلا یه چیز دیگست، طوری که حتما باید تا خط اخرشو بخونم. از منابع مختلف هم می خونم چه فارسی چه انگلیسی"
+          "اهل مطالعه کتاب نیستم اما منابع اینترنتی رو زیاد مطالعه می کنم، مقالاتی توی زمینه های مختلف می خونم که اکثرا مرتبط با شغلم هستن، ولی خوب هر از چندگاهی مطالب غیر مرتبط هم می خونم، مثلا مقالاتی در مورد تکنولوژی های جدید، سیاست، اقتصاد، جامعه شناسی و غیره.. . اما مقاله ای که در مورد تکنولوژی جدید باشه اصلا یه چیز دیگست، طوری که حتما باید تا خط اخرشو بخونم. از منابع مختلف هم می خونم چه فارسی چه انگلیسی"
         )
       ]),
       _vm._v(" "),
@@ -26053,31 +26022,19 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "از حرف مفت خوشم نمیاد و حوصله شنیدنشو ندارم، اکثر اوقات توی ذوق طرف نمیزنم ولی خیلی آروم محل رو ترک می کنم!"
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
           "به نظر خودم تواناییم توی ایده پردازی خیلی بالاست، توی زمینه های مختلف با یکم داده اولیه ایده هایی میدم که شاید به ذهن کمتر کسی رسیده باشه"
         )
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "به آینده امیدوارم و معمولا خنده رو هستم، ولی خوب گاهی اوقات نمیشه دیگه اصن بامزه ترین چیزا هم واسه آدم بی مزه میشه"
+          "به آینده امیدوارم و معمولا خنده رو هستم، ولی خوب گاهی اوقات بامزه ترین چیزا هم واسه آدم بی مزه میشه"
         )
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "لج باز نیستم ولی اگه ببینم یه کاری رو طرفم خیلی غلط داره انجام میده سعی می کنم توجیهش کنم، اگه به خودم آسیبی نرسونه کارش بیشتر از اون ادامه نمیدم! ولی اگه خودم هم آسیب ببینم پافشاری می کنم."
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "کار بی هدف یا خیلی پرتکرار رو دوست ندارم، مجبور باشم انجام میدم و سعیمو میکنم به بهترین نحو انجام بدم. ترجیح میدم اول فک کنم بعد دست به کار بشم، چون در این صورت نتیجه نامطلوب هم باشه آدم خیلی خودخوری نمیکنه که ای کاش اول فک می کردم و وقت و غیره رو تلف نمیکردم."
+          "کار بی هدف یا خیلی پرتکرار رو دوست ندارم، مجبور باشم انجام میدم و سعیمو میکنم به بهترین نحو انجام بدم. ترجیح میدم اول فک کنم بعد دست به کار بشم، چون در این صورت نتیجه نامطلوب هم باشه آدم خیلی خودخوری نمیکنه که ای کاش اول فک می کردم و وقت و انرژیم رو تلف نمیکردم."
         )
       ])
     ])
@@ -27248,7 +27205,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*\n * Some styles so that our first component\n * looks somewhat special\n*/\n.page-works[data-v-8d4152bc] {\n    background-color: #115b63;\n    position: absolute;\n    width: 100%;\n    min-height: 100%;\n    top:0;\n}\n.programming[data-v-8d4152bc]{\n    background: no-repeat fixed center;\n    background-size: cover;\n}\n.card[data-v-8d4152bc] {\n    max-width: 18rem;\n    margin: 0 auto;\n}\n.card img[data-v-8d4152bc]{\n    max-height: 300px;\n}\n.card.full img[data-v-8d4152bc]{\n    max-height: none;\n}\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*\n * Some styles so that our first component\n * looks somewhat special\n*/\n.page-works[data-v-8d4152bc] {\n    background-color: #115b63;\n    position: absolute;\n    width: 100%;\n    min-height: 100%;\n    top:0;\n}\n.programming[data-v-8d4152bc]{\n    background: no-repeat fixed center;\n    background-size: cover;\n}\n.card[data-v-8d4152bc] {\n    max-width: 18rem;\n    margin: 0 auto;\n}\n.card img[data-v-8d4152bc]{\n    max-height: 300px;\n}\n.card.full img[data-v-8d4152bc]{\n    max-height: none;\n}\n.video[data-v-8d4152bc]{\n    width: 100% !important;\n}\n\n", ""]);
 
 // exports
 
@@ -27519,11 +27476,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             } else {
                 jQuery(e.target).parents('.card').toggleClass('full');
             }
+        },
+        setModalContent: function setModalContent(type, src, title) {
+            switch (type) {
+                case 'video':
+                    jQuery('#fullwidthModal .modal-title').text(title);
+                    jQuery('#fullwidthModal .modal-body').html("<video class='video' controls>\n" + "  <source src=\"" + src + "\" type=\"video/mp4\">\n" + "  لطفا از مرورگر به روز استفاده نمایید. \n" + "</video>");
+
+                    break;
+            }
         }
     },
-    mounted: function mounted() {
-        this.$refs.videoRef.src = "http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4";
-    },
+    mounted: function mounted() {},
     watch: {
         full: function full() {
             console.log(this.full);
@@ -27806,7 +27770,10 @@ var render = function() {
                         },
                         on: {
                           click: function($event) {
-                            _vm.setModalContent("video", "")
+                            _vm.setModalContent(
+                              "video",
+                              "https://thefarhan.github.io/videos/digi30ketab.mp4"
+                            )
                           }
                         }
                       },
@@ -28229,16 +28196,10 @@ var staticRenderFns = [
                 [_vm._v("×")]
               ),
               _vm._v(" "),
-              _c("h4", { staticClass: "modal-title" }, [
-                _vm._v("این یه پنجرست")
-              ])
+              _c("h4", { staticClass: "modal-title" })
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "modal-body" }, [
-              _c("video", {
-                attrs: { src: __webpack_require__(43) }
-              })
-            ]),
+            _c("div", { staticClass: "modal-body" }),
             _vm._v(" "),
             _c("div", { staticClass: "modal-footer" }, [
               _c(
@@ -28453,15 +28414,6 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */
-/***/ (function(module, exports) {
-
-throw new Error("Module parse failed: Unexpected character '\u0000' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)");
 
 /***/ })
 /******/ ]);
