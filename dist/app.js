@@ -27127,6 +27127,7 @@ var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
   __webpack_require__(30)
+  __webpack_require__(45)
 }
 var normalizeComponent = __webpack_require__(2)
 /* script */
@@ -27205,7 +27206,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*\n * Some styles so that our first component\n * looks somewhat special\n*/\n.page-works[data-v-8d4152bc] {\n    background-color: #115b63;\n    position: absolute;\n    width: 100%;\n    min-height: 100%;\n    top:0;\n}\n.programming[data-v-8d4152bc]{\n    background: no-repeat fixed center;\n    background-size: cover;\n}\n.card[data-v-8d4152bc] {\n    max-width: 18rem;\n    margin: 0 auto;\n}\n.card img[data-v-8d4152bc]{\n    max-height: 300px;\n}\n.card.full img[data-v-8d4152bc]{\n    max-height: none;\n}\n.video[data-v-8d4152bc]{\n    width: 100% !important;\n}\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*\n * Some styles so that our first component\n * looks somewhat special\n*/\n.page-works[data-v-8d4152bc] {\n    background-color: #115b63;\n    position: absolute;\n    width: 100%;\n    min-height: 100%;\n    top:0;\n}\n.programming[data-v-8d4152bc]{\n    background: no-repeat fixed center;\n    background-size: cover;\n}\n.card[data-v-8d4152bc] {\n    max-width: 18rem;\n    margin: 0 auto;\n}\n.card img[data-v-8d4152bc]{\n    max-height: 300px;\n}\n.card.full img[data-v-8d4152bc]{\n    max-height: none;\n}\n\n\n\n", ""]);
 
 // exports
 
@@ -27216,6 +27217,11 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
 //
 //
 //
@@ -27752,16 +27758,12 @@ var render = function() {
                       _vm._v("فروشگاه digi30ketab")
                     ]),
                     _vm._v(" "),
-                    _c("p", { staticClass: "card-text" }, [
-                      _vm._v(
-                        "طراحی فروشگاه digi30ketab توسط فریم ورک لاراول و vuejs"
-                      )
-                    ]),
+                    _vm._m(13),
                     _vm._v(" "),
                     _c(
                       "a",
                       {
-                        staticClass: "btn btn-primary",
+                        staticClass: "btn btn-danger",
                         attrs: {
                           href: "https://github.com/wp-src/watermark-bot",
                           target: "_blank",
@@ -27780,22 +27782,6 @@ var render = function() {
                       [_vm._v("مشاهده ویدئو")]
                     )
                   ])
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-4 pb-3" }, [
-              _c(
-                "div",
-                { staticClass: "card", on: { click: _vm.toggleFull } },
-                [
-                  _c("img", {
-                    staticClass: "card-img-top",
-                    class: { full: _vm.full },
-                    attrs: { src: "" }
-                  }),
-                  _vm._v(" "),
-                  _vm._m(13)
                 ]
               )
             ]),
@@ -27862,13 +27848,29 @@ var render = function() {
                   _vm._m(17)
                 ]
               )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4 pb-3" }, [
+              _c(
+                "div",
+                { staticClass: "card", on: { click: _vm.toggleFull } },
+                [
+                  _c("img", {
+                    staticClass: "card-img-top",
+                    class: { full: _vm.full },
+                    attrs: { src: "" }
+                  }),
+                  _vm._v(" "),
+                  _vm._m(18)
+                ]
+              )
             ])
           ])
         ])
       ])
     ]),
     _vm._v(" "),
-    _vm._m(18)
+    _vm._m(19)
   ])
 }
 var staticRenderFns = [
@@ -28088,6 +28090,20 @@ var staticRenderFns = [
           "همین پوسته فعلی که در حال مشاهده آن هستید !!! این پوسته به کمک فریم ورک vuejs طراحی شده است و از جمله ویژگی های آن بارگزاری کامپوننت ها به صورت داینامیک و با انیمیشن می باشد."
         )
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "card-text" }, [
+      _vm._v(
+        "\n                                    طراحی فروشگاه digi30ketab توسط فریم ورک های لاراول و vuejs\n                                    "
+      ),
+      _c("br"),
+      _vm._v(
+        "\n                                    از جمله امکانات این اسکریپت می توان به امکان ثبت تراکنش ها، آمارگیری، مدیریت پیشرفته بر روی دسته ها، پنل نمایندگان، امکان اعمال تخفیف، تغییر دسته ای قیمت ها، ایجاد کد ارجاع توسط نماینده و...، و طراحی به کمک تکنولوژی های جدید و استفاده از api در برخی بخش ها اشاره کرد.\n\n                                "
+      )
     ])
   },
   function() {
@@ -28414,6 +28430,51 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(46);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(1)("283e3404", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8d4152bc\",\"scoped\":false,\"hasInlineConfig\":true}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./works.vue", function() {
+     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8d4152bc\",\"scoped\":false,\"hasInlineConfig\":true}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./works.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 46 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.video{\n    width: 100% !important;\n}\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);

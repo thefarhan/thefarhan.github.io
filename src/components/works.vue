@@ -145,10 +145,15 @@
                                 <img class="card-img-top" :class="{full: full}" src="" >
                                 <div class="card-body">
                                     <h5 class="card-title">فروشگاه digi30ketab</h5>
-                                    <p class="card-text">طراحی فروشگاه digi30ketab توسط فریم ورک لاراول و vuejs</p>
+                                    <p class="card-text">
+                                        طراحی فروشگاه digi30ketab توسط فریم ورک های لاراول و vuejs
+                                        <br>
+                                        از جمله امکانات این اسکریپت می توان به امکان ثبت تراکنش ها، آمارگیری، مدیریت پیشرفته بر روی دسته ها، پنل نمایندگان، امکان اعمال تخفیف، تغییر دسته ای قیمت ها، ایجاد کد ارجاع توسط نماینده و...، و طراحی به کمک تکنولوژی های جدید و استفاده از api در برخی بخش ها اشاره کرد.
+
+                                    </p>
                                     <a href="https://github.com/wp-src/watermark-bot"
                                        target="_blank"
-                                       class="btn btn-primary"
+                                       class="btn btn-danger"
                                        data-toggle="modal"
                                        data-target="#fullwidthModal"
                                        @click="setModalContent('video', 'https://thefarhan.github.io/videos/digi30ketab.mp4')"
@@ -314,8 +319,12 @@
         max-height: none;
     }
 
+
+
+</style>
+
+<style>
     .video{
         width: 100% !important;
     }
-
 </style>
