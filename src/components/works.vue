@@ -144,6 +144,22 @@
                             <div class="card"  @click="toggleFull">
                                 <img class="card-img-top" :class="{full: full}" src="" >
                                 <div class="card-body">
+                                    <h5 class="card-title">فروشگاه digi30ketab</h5>
+                                    <p class="card-text">طراحی فروشگاه digi30ketab توسط فریم ورک لاراول و vuejs</p>
+                                    <a href="https://github.com/wp-src/watermark-bot"
+                                       target="_blank"
+                                       class="btn btn-primary"
+                                       data-toggle="modal"
+                                       data-target="#fullwidthModal"
+                                       @click="setModalContent('video', '')"
+                                    >مشاهده ویدئو</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 pb-3">
+                            <div class="card"  @click="toggleFull">
+                                <img class="card-img-top" :class="{full: full}" src="" >
+                                <div class="card-body">
                                     <h5 class="card-title">طراحی ربات تلگرام با فریم ورک lumen</h5>
                                     <p class="card-text">ربات درج لوگو بر روی تصاویر</p>
                                     <a href="https://github.com/wp-src/watermark-bot" target="_blank" class="btn btn-primary">مشاهده سایت</a>
@@ -190,6 +206,33 @@
                 </div>
             </div>
         </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="fullwidthModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close ml-0" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">این یه پنجرست</h4>
+
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+
+                        <video src="../videos/digi30ketab.mp4"></video>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">بستن</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -214,6 +257,10 @@
                     jQuery(e.target).parents('.card').toggleClass('full')
                 }
             },
+        },
+        mounted: function() {
+            this.$refs.videoRef.src = "http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4";
+
         },
         watch: {
             full(){

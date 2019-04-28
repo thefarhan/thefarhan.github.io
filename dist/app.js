@@ -27248,7 +27248,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*\n * Some styles so that our first component\n * looks somewhat special\n*/\n.page-works[data-v-8d4152bc] {\n    background-color: #115b63;\n    position: absolute;\n    width: 100%;\n    min-height: 100%;\n    top:0;\n}\n.programming[data-v-8d4152bc]{\n    background: no-repeat fixed center;\n    background-size: cover;\n}\n.card[data-v-8d4152bc] {\n    max-width: 18rem;\n    margin: 0 auto;\n}\n.card img[data-v-8d4152bc]{\n    max-height: 300px;\n}\n.card.full img[data-v-8d4152bc]{\n    max-height: none;\n}\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*\n * Some styles so that our first component\n * looks somewhat special\n*/\n.page-works[data-v-8d4152bc] {\n    background-color: #115b63;\n    position: absolute;\n    width: 100%;\n    min-height: 100%;\n    top:0;\n}\n.programming[data-v-8d4152bc]{\n    background: no-repeat fixed center;\n    background-size: cover;\n}\n.card[data-v-8d4152bc] {\n    max-width: 18rem;\n    margin: 0 auto;\n}\n.card img[data-v-8d4152bc]{\n    max-height: 300px;\n}\n.card.full img[data-v-8d4152bc]{\n    max-height: none;\n}\n\n", ""]);
 
 // exports
 
@@ -27259,6 +27259,49 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -27477,6 +27520,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 jQuery(e.target).parents('.card').toggleClass('full');
             }
         }
+    },
+    mounted: function mounted() {
+        this.$refs.videoRef.src = "http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4";
     },
     watch: {
         full: function full() {
@@ -27737,6 +27783,51 @@ var render = function() {
                     attrs: { src: "" }
                   }),
                   _vm._v(" "),
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _vm._v("فروشگاه digi30ketab")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "card-text" }, [
+                      _vm._v(
+                        "طراحی فروشگاه digi30ketab توسط فریم ورک لاراول و vuejs"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass: "btn btn-primary",
+                        attrs: {
+                          href: "https://github.com/wp-src/watermark-bot",
+                          target: "_blank",
+                          "data-toggle": "modal",
+                          "data-target": "#fullwidthModal"
+                        },
+                        on: {
+                          click: function($event) {
+                            _vm.setModalContent("video", "")
+                          }
+                        }
+                      },
+                      [_vm._v("مشاهده ویدئو")]
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4 pb-3" }, [
+              _c(
+                "div",
+                { staticClass: "card", on: { click: _vm.toggleFull } },
+                [
+                  _c("img", {
+                    staticClass: "card-img-top",
+                    class: { full: _vm.full },
+                    attrs: { src: "" }
+                  }),
+                  _vm._v(" "),
                   _vm._m(13)
                 ]
               )
@@ -27808,7 +27899,9 @@ var render = function() {
           ])
         ])
       ])
-    ])
+    ]),
+    _vm._v(" "),
+    _vm._m(18)
   ])
 }
 var staticRenderFns = [
@@ -28115,6 +28208,52 @@ var staticRenderFns = [
         )
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "modal", attrs: { id: "fullwidthModal" } },
+      [
+        _c("div", { staticClass: "modal-dialog modal-lg" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "close ml-0",
+                  attrs: { type: "button", "data-dismiss": "modal" }
+                },
+                [_vm._v("×")]
+              ),
+              _vm._v(" "),
+              _c("h4", { staticClass: "modal-title" }, [
+                _vm._v("این یه پنجرست")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("video", {
+                attrs: { src: __webpack_require__(43) }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-danger",
+                  attrs: { type: "button", "data-dismiss": "modal" }
+                },
+                [_vm._v("بستن")]
+              )
+            ])
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -28314,6 +28453,15 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */
+/***/ (function(module, exports) {
+
+throw new Error("Module parse failed: Unexpected character '\u0000' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)");
 
 /***/ })
 /******/ ]);
