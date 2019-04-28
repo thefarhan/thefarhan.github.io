@@ -151,7 +151,7 @@
                                        class="btn btn-primary"
                                        data-toggle="modal"
                                        data-target="#fullwidthModal"
-                                       @click="setModalContent('video', '')"
+                                       @click="setModalContent('video', '../videos/digi30ketab.mp4')"
                                     >مشاهده ویدئو</a>
                                 </div>
                             </div>
@@ -222,7 +222,7 @@
                     <!-- Modal body -->
                     <div class="modal-body">
 
-                        <video src="../videos/digi30ketab.mp4"></video>
+                        <video src="../../videos/digi30ketab.mp4"></video>
                     </div>
 
                     <!-- Modal footer -->
