@@ -90,7 +90,7 @@
                                 <img class="card-img-top" :class="{full: full}" src="dist/images/iphapp.png" >
                                 <div class="card-body">
                                     <h5 class="card-title">طراحی ui iphapp</h5>
-                                    <p class="card-text"></p>
+                                    <p class="card-text">طراحی کاملا مطابق با psd</p>
                                     <a href="https://github.com/wp-src/watermark-bot"
                                        target="_blank"
                                        class="btn btn-danger"
@@ -107,6 +107,13 @@
                                 <div class="card-body">
                                     <h5 class="card-title">طراحی لندینگ تبلیغاتی</h5>
                                     <p class="card-text"></p>
+                                    <a href="https://github.com/wp-src/watermark-bot"
+                                       target="_blank"
+                                       class="btn btn-danger"
+                                       data-toggle="modal"
+                                       data-target="#fullwidthModal"
+                                       @click="setModalContent('video', 'https://thefarhan.github.io/videos/varzesh-bardari.mp4')"
+                                    >مشاهده ویدئو</a>
                                 </div>
                             </div>
                         </div>
