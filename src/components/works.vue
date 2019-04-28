@@ -91,7 +91,13 @@
                                 <div class="card-body">
                                     <h5 class="card-title">طراحی ui iphapp</h5>
                                     <p class="card-text"></p>
-                                    <a href="#" class="btn btn-primary">مشاهده سایت</a>
+                                    <a href="https://github.com/wp-src/watermark-bot"
+                                       target="_blank"
+                                       class="btn btn-danger"
+                                       data-toggle="modal"
+                                       data-target="#fullwidthModal"
+                                       @click="setModalContent('video', 'https://thefarhan.github.io/videos/iphapp.mp4')"
+                                    >مشاهده ویدئو</a>
                                 </div>
                             </div>
                         </div>
