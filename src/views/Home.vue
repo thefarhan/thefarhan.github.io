@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-md-8">
               <h2 class="rtl text-center py-4 font-weight-bold">به وب سایت شخصی فرحان نیسی خوش آمدید :/</h2>
-              <p class="rtl text-center py-2 m-auto" style="max-width: 300px;">توی این وب سایت میتونید در مورد من اطلاعات جامعی کسب نمایید. این که کی هستم و آیا به درد آشنایی با شما می خورم یا نه !!!</p>
+              <p class="rtl text-center py-2 m-auto" style="max-width: 300px;">توی این وب سایت میتونید رزومه کاری من رو مطالعه کنید و کمی در موردم بخونید  !!!</p>
             </div>
             <div class="col-md-4">
               <div class="avatar m-auto">
