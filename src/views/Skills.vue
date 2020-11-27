@@ -93,7 +93,7 @@
 export default {
   name: "skills",
   data: () => ({
-    programmingBackUrl: "background-image: url(assets/images/2.jpg);",
+    programmingBackUrl: "background-image: url(dist/assets/images/2.jpg);",
     programmingSkills: [
       {
         title: 'برنامه نویسی JavaScript',
