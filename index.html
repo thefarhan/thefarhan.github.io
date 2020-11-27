@@ -4,35 +4,24 @@
     <meta charset="UTF-8">
     <title>فرحان</title>
     <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="dist/app.css">
+    <link rel="stylesheet" href="dist/main.css">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
 
 </head>
 <body>
-    <div id="app">
+    <div id="main">
         <a href="#" class="menu-key" @click="toggleMenu" v-show="!menuVisibility"> منو </a>
         <ul :class="{menu: true, visible: menuVisibility }">
-            <li><a href="#" @click="changePage('home')">خانه</a></li>
-            <li><a href="#" @click="changePage('about')">درباره من</a></li>
-            <li><a href="#" @click="changePage('skills')">مهارت های من </a></li>
-            <li><a href="#" @click="changePage('works')">نمونه کارها</a></li>
-            <li><a href="#" @click="changePage('contact')">تماس با من</a></li>
+            <li><router-link href="#" to="/home">خانه</router-link></li>
+            <li><router-link href="#" to="/about">درباره من</router-link></li>
+            <li><router-link href="#" to="/skills">مهارت های من </router-link></li>
+            <li><router-link href="#" to="/works">نمونه کارها</router-link></li>
+            <li><router-link href="#" to="/contact">تماس با من</router-link></li>
             <li><a href="#" @click="toggleMenu"> << </a></li>
         </ul>
-        <keep-alive class="contents">
-            <transition
-                    :name="transitionType"
-                    :enter-active-class="enterTransitionType"
-                    :leave-active-class="leaveTransitionType"
-                        mode="in-out">
-            <component
-                    v-bind:is="loadPage"
-                    class="dynamic-component"
-            ></component>
-            </transition>
-        </keep-alive>
+
     </div>
     <script src="dist/jquery.min.js" type="text/javascript"></script>
-    <script src="dist/app.js?v=1.1"></script>
+    <script src="dist/main.js?v=1.1"></script>
 </body>
 </html>
