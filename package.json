@@ -1,30 +1,54 @@
 {
   "name": "thefarhan",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "Personal website using Vue.js",
+  "author": "Farhan",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
   "main": "index.js",
   "dependencies": {
+    "@mdi/font": "^5.8.55",
+    "@mdi/js": "^5.8.55",
     "animate.css": "^3.7.0",
+    "bootstrap": "^4.5.3",
     "bootstrap-v4-rtl": "^4.1.1-0",
+    "core-js": "^3.6.5",
     "cross-env": "^5.2.0",
-    "g": "^2.0.1",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.1",
     "jquery-aniview": "^1.0.2",
-    "laravel-mix": "^2.1.14",
-    "popper.js": "^1.14.4",
-    "vue": "^2.5.17",
-    "vue-router": "^3.0.1"
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
   },
   "devDependencies": {
-    "babel-plugin-syntax-dynamic-import": "^6.18.0"
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.8",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.4",
+    "vue-template-compiler": "^2.6.11"
   },
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
   },
   "keywords": [],
-  "author": "",
   "license": "ISC"
 }

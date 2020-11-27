@@ -1,0 +1,109 @@
+@import "../../node_modules/bootstrap-v4-rtl/scss/bootstrap-rtl";
+
+@font-face {
+  font-family: Vazir;
+  src: url('fonts/Vazir-Light-FD-WOL.eot');
+  src: url('fonts/Vazir-Light-FD-WOL.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Vazir-Light-FD-WOL.woff') format('woff'),
+  url('fonts/Vazir-Light-FD-WOL.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('fonts/Vazir-Bold-FD-WOL.eot');
+  src: url('fonts/Vazir-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Vazir-Bold-FD-WOL.woff') format('woff'),
+  url('fonts/Vazir-Bold-FD-WOL.ttf') format('truetype');
+  font-weight: bold;
+}
+
+body {
+  overflow: visible;
+  overflow-x: hidden;
+  font-family: 'Vazir', Tahoma;
+}
+
+.menu-key {
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  color: #fff;
+  z-index: 99999;
+  background-color: #034424;
+}
+
+.menu {
+  position: absolute;
+  z-index: 99999;
+  list-style: none;
+  padding: 0;
+  max-width: 123px;
+  left: -400px;
+
+  &.visible {
+    left: 0;
+  }
+
+  li {
+    display: inline-block;
+    background-color: #034424;
+  }
+
+  a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+  }
+}
+
+.contents {
+  position: relative;
+  z-index: 1;
+}
+
+/* Components Animation */
+/*fade*/
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity 2s ease;
+}
+
+.component-fade-enter, .component-fade-leave-to {
+  opacity: 0;
+}
+
+/*slide*/
+.component-slide-enter-active, .component-slide-leave-active {
+  transition: left 2s ease;
+}
+
+.dynamic-component {
+  left: 0;
+}
+
+.component-slide-enter, .component-slide-leave-to {
+  left: 100%;
+}
+
+/*bounce*/
+.component-bounce-enter-active {
+  animation: bounce-in .5s;
+}
+
+.component-bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
